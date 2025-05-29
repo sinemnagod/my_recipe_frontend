@@ -1,0 +1,41 @@
+/* CategoryRecipes.css */
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .content h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  /* recipe-grid will wrap your RecipeCard components */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* fallback list styling if you ever need it */
+  .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* empty‐state message */
+  .content p {
+    font-size: 1.1rem;
+    color: #777;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  

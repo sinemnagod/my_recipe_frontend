@@ -1,0 +1,37 @@
+.sidebar {
+    width: 250px;
+    max-width: 300px;;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: darkgoldenrod;
+    
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: brown;
+    margin-left: 2em;
+  }
+  
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #2e7d32;
+    transition: color 0.2s ease;
+    list-style: none;
+  }
+  
+  .sidebar li:hover {
+    color: #1b5e20;
+  }
+
+  .sidebar ul li.active > a {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  

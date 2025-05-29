@@ -1,0 +1,27 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1a202c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+

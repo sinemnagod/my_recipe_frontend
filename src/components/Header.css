@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #1F2937;
+  }
+  
+  .logo {
+    text-decoration: none;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 3em;
+    border-radius: 5px;
+  }
+  
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 0.4rem 0.6rem;
+    outline: none;
+    border: 2px solid burlywood;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .search-btn {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .send-recipe {
+    background-color: #a52a2a;
+    color: #fff;
+    margin-right: 4em;
+  }
+  
+  .send-recipe:hover {
+    background-color: rgb(187, 47, 47);
+  }
+  
+  .login, .signup-btn, .logout-btn {
+    background-color: #deb887;
+    color: #fff;
+  }
+  
+  .login:hover, .signup-btn:hover, .logout-btn:hover {
+    background-color: rgb(249, 207, 152);;
+  }
+
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  

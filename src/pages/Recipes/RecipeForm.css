@@ -1,0 +1,69 @@
+.layout {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: nowrap; 
+    padding: 20px; 
+    min-height: 100vh; 
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.form-wrapper {
+    flex-grow: 1;
+    min-width: 0;
+    background-color: rgb(250, 239, 225);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin-top: 2em;
+    max-width: 700px;
+    width: 100%;
+}
+.recipe-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #b22222;
+}
+
+.recipe-form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.recipe-form-container label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.recipe-form-container input,
+.recipe-form-container textarea,
+.recipe-form-container select {
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make inputs responsive */
+    box-sizing: border-box;
+}
+
+.recipe-form-container button {
+    font-size: 1.2em;
+    background-color: #d2691e;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    box-sizing: border-box;
+}
+
+
+
+
+
