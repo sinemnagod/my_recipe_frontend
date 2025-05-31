@@ -22,7 +22,7 @@ const RecipeCard = ({ recipe, onUnfavorite }) => {
     e.preventDefault();
     const action = isFav ? 'remove' : 'add';
     await fetch(
-      `https://powerful-sparkle-production.up.railway.app/api/users/favorites/${action}/${recipe.id}`,
+      `https://myrecipeapi-production.up.railway.app/api/users/favorites/${action}/${recipe.id}`,
       {
         method: 'PUT',
         credentials: 'include'

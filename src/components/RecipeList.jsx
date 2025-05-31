@@ -6,7 +6,7 @@ const RecipeList = ({ searchQuery = '' }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch('https://powerful-sparkle-production.up.railway.app/api/recipes', { credentials: 'include' })
+    fetch('https://myrecipeapi-production.up.railway.app/api/recipes', { credentials: 'include' })
       .then(res => res.json())
       .then(data => setRecipes(data))
       .catch(err => console.error('Error fetching recipes:', err));

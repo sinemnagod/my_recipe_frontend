@@ -15,8 +15,8 @@ const CategoryRecipes = () => {
   
   useEffect(() => {
     const endpoint = id
-      ? `https://powerful-sparkle-production.up.railway.app/api/recipes/category/${id}`
-      : `https://powerful-sparkle-production.up.railway.app/api/recipes`;
+      ? `https://myrecipeapi-production.up.railway.app/api/recipes/category/${id}`
+      : `https://myrecipeapi-production.up.railway.app/api/recipes`;
     fetch(endpoint, { credentials: 'include' })
       .then(res => res.json())
       .then(setRecipes)
@@ -29,7 +29,7 @@ const CategoryRecipes = () => {
       setCategoryName('');
       return;
     }
-    fetch(`https://powerful-sparkle-production.up.railway.app/api/categories/${id}`)
+    fetch(`https://myrecipeapi-production.up.railway.app/api/categories/${id}`)
       .then(res => res.json())
       .then(data => setCategoryName(data.name))
       .catch(console.error);

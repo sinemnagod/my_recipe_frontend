@@ -17,7 +17,7 @@ const SignUpPage = () => {
     const handleSignUp = async (e) => {
       e.preventDefault();
       try {
-        const res = await fetch('https://powerful-sparkle-production.up.railway.app/api/users/register', {
+        const res = await fetch('https://myrecipeapi-production.up.railway.app/api/users/register', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',

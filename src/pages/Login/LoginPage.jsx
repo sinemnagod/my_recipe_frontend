@@ -23,7 +23,7 @@ const LoginPage = () => {
       params.append('email', formData.email);
       params.append('password', formData.password);
   
-      const res = await fetch('https://powerful-sparkle-production.up.railway.app/api/users/login', {
+      const res = await fetch('https://myrecipeapi-production.up.railway.app/api/users/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         credentials: 'include',

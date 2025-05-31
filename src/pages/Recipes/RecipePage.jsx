@@ -12,7 +12,7 @@ const RecipePage = () => {
 
   
   useEffect(() => {
-    fetch(`https://powerful-sparkle-production.up.railway.app/api/recipes/${id}`, { credentials: 'include' })
+    fetch(`https://myrecipeapi-production.up.railway.app/api/recipes/${id}`, { credentials: 'include' })
       .then(res => res.json())
       .then(setRecipe)
       .catch(err => console.error('Error fetching recipe:', err));
@@ -20,7 +20,7 @@ const RecipePage = () => {
 
   
   useEffect(() => {
-    fetch(`https://powerful-sparkle-production.up.railway.app/api/ingredients`, { credentials: 'include' })
+    fetch(`https://myrecipeapi-production.up.railway.app/api/ingredients`, { credentials: 'include' })
       .then(res => res.json())
       .then(setAllIngredients)
       .catch(err => console.error('Error fetching ingredients:', err));

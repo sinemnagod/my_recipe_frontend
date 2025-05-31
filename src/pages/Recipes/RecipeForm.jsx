@@ -27,7 +27,7 @@ const RecipeForm = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('https://powerful-sparkle-production.up.railway.app/api/categories', {
+        const response = await fetch('https://myrecipeapi-production.up.railway.app/api/categories', {
           credentials: 'include'
         });
         const data = await response.json();
@@ -39,7 +39,7 @@ const RecipeForm = () => {
 
     const fetchIngredients = async () => {
       try {
-        const response = await fetch('https://powerful-sparkle-production.up.railway.app/api/ingredients', {
+        const response = await fetch('https://myrecipeapi-production.up.railway.app/api/ingredients', {
           credentials: 'include'
         });
         const data = await response.json();
@@ -94,7 +94,7 @@ const RecipeForm = () => {
     };
 
     try {
-      const response = await fetch('https://powerful-sparkle-production.up.railway.app/api/recipes/create', {
+      const response = await fetch('https://myrecipeapi-production.up.railway.app/api/recipes/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

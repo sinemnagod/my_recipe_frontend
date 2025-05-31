@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './Sidebar.css';
@@ -10,7 +9,7 @@ const Sidebar = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await fetch('https://powerful-sparkle-production.up.railway.app/api/categories', {
+        const res = await fetch('https://myrecipeapi-production.up.railway.app/api/categories', {
           credentials: 'include'
         });
         const data = await res.json();

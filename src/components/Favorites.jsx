@@ -10,7 +10,7 @@ const Favorites = () => {
   useEffect(() => {
     const fetchFavorites = async () => {
       try {
-        const res = await fetch('https://powerful-sparkle-production.up.railway.app/api/users/favorites', {
+        const res = await fetch('https://myrecipeapi-production.up.railway.app/api/users/favorites', {
           credentials: 'include',
         });
         if (!res.ok) throw new Error('Failed to fetch favorites');
